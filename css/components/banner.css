@@ -1,0 +1,27 @@
+@import url("container.css");
+@import url("../style.css");
+@import url("image.css");
+@import url("card.css");
+@import url("nav-bar.css");
+
+.banner {
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.6) 50%), url(../../images/background1.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 70px;
+	padding-top: 150px;
+}
+
+.banner h1 {
+  	color: white;
+  	font-size: 50px;
+  	text-align: left;
+}
+.banner p {
+  	color: white;
+  	font-size: 20px;
+  	font-weight: lighter;
+	opacity: 0.8;
+}
+
+

@@ -1,0 +1,91 @@
+.card-mouvement {
+	display: flex;
+	align-items: left;
+	background: white;
+	padding: 20px;
+	margin: 30px 0px;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	--mouvement-link-color:rgb(0,0,0);
+}
+
+.card-mouvement:hover {
+	cursor: pointer;
+	--mouvement-link-color:rgb(150,150,150);
+
+}
+
+.card-mouvement h2 {
+	font-size: 30px;
+	color: var(--mouvement-link-color);
+	text-align: center;
+	font-weight: lighter;
+}
+
+.image-mouvement {
+	width: 100px;
+	height: 100px;
+	margin-right: 30px;
+	border-radius: 10px;
+	background-size: cover;
+  	background-position: center;
+}
+
+#renaissance {
+	background-image: url("../../images/la-naissance-de-venus.jpg");
+}
+
+#classicisme {
+	background-image: url("../../images/et-in-acardia-ego.jpg");
+}
+
+#rococo {
+	background-image: url("../../images/le-pelerinage-a-l-ile-de-cythere.jpg");
+}
+
+#romantisme {
+	background-image: url("../../images/le-voyageur-contemplant-une-mer-de-nuages.jpg");
+}
+
+#realisme {
+	background-image: url("../../images/un-enterrement-a-ornans.jpg");
+}
+
+#impressionnisme {
+	background-image: url("../../images/impression-soleil-levant.jpg");
+}
+
+#expressionnisme {
+	background-image: url("../../images/le-cri.jpg");
+}
+
+#cubisme {
+	background-image: url("../../images/les-demoiselles-d-avignon.jpg");
+}
+
+#expressionnisme-abstrait {
+	background-image: url("../../images/no-5.jpg");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

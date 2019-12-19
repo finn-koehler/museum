@@ -1,0 +1,285 @@
+@import url("container.css");
+@import url("banner.css");
+@import url("image.css");
+@import url("../style.css");
+@import url("nav-bar.css");
+
+
+.cards {
+  	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.card {
+	width: 200px;
+	height: 200px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-between;
+  	background-size: cover;
+  	background-position: center;
+  	filter: grayscale(0.8);
+
+  	flex-basis: 200px;
+  	margin: var(--card-margin) 0px;
+
+  	--card-link-color: rgba(255,255,255,0);
+  	cursor: pointer;
+
+}
+
+.card:hover {
+	filter: grayscale(0);
+	--card-link-color: rgba(255,255,255,1);
+}
+
+.card p {
+	color: var(--card-link-color);
+  	text-align: center;
+  	margin: auto;
+}
+
+/*Delacroix*/
+
+#la-liberte-guidant-le-peuple {
+	background-image: url("../../images/la-liberte-guidant-le-peuple.jpg");
+
+}
+
+#la-mort-de-sardanapale {
+	background-image: url("../../images/la-mort-de-sardanapale.jpg");
+
+}
+
+#scene-des-massacres-de-scio {
+	background-image: url("../../images/scene-des-massacres-de-scio.jpg");
+}
+
+#femmes-d-alger {
+	background-image: url("../../images/femmes-d-alger.jpg");
+}
+
+#la-barque-de-dante {
+	background-image: url("../../images/la-barque-de-dante.jpg");
+}
+
+#chasse-aux-lions {
+	background-image: url("../../images/chasse-aux-lions.jpg");
+}
+
+
+/*Vermeer*/
+
+#la-laitiere {
+	background-image: url("../../images/la-laitiere.jpg");
+}
+
+#la-jeune-fille-a-la-perle {
+	background-image: url("../../images/la-jeune-fille-a-la-perle.jpg");
+}
+
+#l-art-de-la-peinture {
+	background-image: url("../../images/l-art-de-la-peinture.jpg");
+}
+
+#vue-de-delft {
+	background-image: url("../../images/vue-de-delft.jpg");
+}
+
+#la-ruelle {
+	background-image: url("../../images/la-ruelle.jpg");
+}
+
+#la-dentelliere {
+	background-image: url("../../images/la-dentelliere.jpg");
+}
+
+#la-femme-en-bleu-lisant-une-lettre {
+	background-image: url("../../images/la-femme-en-bleu-lisant-une-lettre.jpg");
+}
+
+
+/*Botticelli*/
+
+#le-printemps {
+	background-image: url("../../images/le-printemps.jpg");
+}
+
+#la-naissance-de-venus {
+	background-image: url("../../images/la-naissance-de-venus.jpg");
+}
+
+#la-nativite-mystique {
+	background-image: url("../../images/la-nativite-mystique.jpg");
+}
+
+#la-calomnie-d-apelle {
+	background-image: url("../../images/la-calomnie-d-apelle.jpg");
+}
+
+#les-epreuves-de-moise {
+	background-image: url("../../images/les-epreuves-de-moise.jpg");
+}
+
+#la-tentation-du-christ {
+	background-image: url("../../images/la-tentation-du-christ.jpg");
+}
+
+
+/*Courbet*/
+
+#un-enterrement-a-ornans {
+	background-image: url("../../images/un-enterrement-a-ornans.jpg");
+}
+
+#l-apres-dinee-a-ornans {
+	background-image: url("../../images/l-apres-dinee-a-ornans.jpg");
+}
+
+#le-desespere {
+	background-image: url("../../images/le-desespere.jpg");
+}
+
+#l-atelier-du-peintre {
+	background-image: url("../../images/l-atelier-du-peintre.jpg");
+}
+
+
+/*Vinci*/
+
+#la-joconde {
+	background-image: url("../../images/la-joconde.jpg");
+}
+
+#la-cene {
+	background-image: url("../../images/la-cene.jpg");
+}
+
+#salvator-mundi {
+	background-image: url("../../images/salvator-mundi.jpg");
+}
+
+#la-dame-a-l-hermine {
+	background-image: url("../../images/la-dame-a-l-hermine.jpg");
+}
+
+#saint-jean-baptiste {
+	background-image: url("../../images/saint-jean-baptiste.jpg");
+}
+
+#l-annonciation {
+	background-image: url("../../images/l-annonciation.jpg");
+}
+
+#la-belle-ferroniere {
+	background-image: url("../../images/la-belle-ferroniere.jpg");
+}
+
+
+/*Raphael*/
+
+#la-transfiguration {
+	background-image: url("../../images/la-transfiguration.jpg");
+}
+
+#l-ecole-d-athenes {
+	background-image: url("../../images/l-ecole-d-athenes.jpg");
+}
+
+#la-madone-sixtine {
+	background-image: url("../../images/la-madone-sixtine.jpg");
+}
+
+#le-triomphe-de-galatee {
+	background-image: url("../../images/le-triomphe-de-galatee.jpg");
+}
+
+#la-madone-a-la-prairie {
+	background-image: url("../../images/la-madone-a-la-prairie.jpg");
+}
+
+#portrait-du-pape-jules-ii {
+	background-image: url("../../images/portrait-du-pape-jules-ii.jpg");
+}
+
+
+
+
+/*Braque*/
+
+#le-viaduc-a-l-estaque {
+	background-image: url("../../images/le-viaduc-a-l-estaque.jpg");
+}
+
+#le-portugais {
+	background-image: url("../../images/le-portugais.jpg");
+}
+
+#violon-et-bougie {
+	background-image: url("../../images/violon-et-bougie.jpg");
+}
+
+
+/*Cezanne*/
+
+#les-joueurs-de-cartes {
+	background-image: url("../../images/les-joueurs-de-cartes.jpg");
+}
+
+#les-grandes-baigneuses {
+	background-image: url("../../images/les-grandes-baigneuses.jpg");
+}
+
+#la-corbeille-de-pommes {
+	background-image: url("../../images/la-corbeille-de-pommes.jpg");
+}
+
+#le-garcon-au-gilet-rouge {
+	background-image: url("../../images/le-garcon-au-gilet-rouge.jpg");
+}
+
+#la-montagne-sainte-victoire {
+	background-image: url("../../images/la-montagne-sainte-victoire.jpg");
+}
+
+
+/*Le Caravage*/
+
+#la-vocation-de-saint-matthieu {
+	background-image: url("../../images/la-vocation-de-saint-matthieu.jpg");
+}
+
+#le-souper-a-emmaus {
+	background-image: url("../../images/le-souper-a-emmaus.jpg");
+}
+
+#judith-decapitant-holopherne {
+	background-image: url("../../images/judith-decapitant-holopherne.jpg");
+}
+
+#le-crucifiement-de-saint-pierre {
+	background-image: url("../../images/le-crucifiement-de-saint-pierre.jpg");
+}
+
+#bacchus {
+	background-image: url("../../images/bacchus.jpg");
+}
+
+
+
+
+
+
+#filler {
+	background-image: url("../../images/filler.jpg");
+	cursor: auto;
+}
+
+
+
+
+
+
+
+

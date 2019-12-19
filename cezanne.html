@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>museum | Enjoy art at home</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="nav-main" id="nav-accueil">
+			<div id="logo"><a href="index.html"><b>museum</b></a></div>
+			<div id="nav-items"></div>
+			
+		</div>
+		<div id="nav-hidden">
+			<div class="nav-item-hidden">
+				<a href="galerie.html">Galerie</a>
+			</div>
+			<div class="nav-item-hidden">
+				<a href="mouvements.html">Mouvements</a>
+			</div>
+			<div class="nav-item-hidden">
+				<a href="artistes.html">Artistes</a>
+			</div>
+			<div class="nav-item-hidden">
+				<a href="#">Expositions</a> 
+			</div>
+			<div class="nav-item-hidden">
+				<a href="#">À propos</a>
+			</div>
+			<div id="nav-hidden-spacer"></div>
+		</div>
+	</header>
+	
+
+	<div class="container">
+		<h1>PAUL CÉZANNE</h1>
+		<img src="images/trait.jpg" id="trait">
+		<img src="images/les-joueurs-de-cartes.jpg" id="image-displayed">
+		<p id="description">Les Joueurs de cartes (1895)<br><a href="cezanne.html">Paul Cézanne</a><br>Conservé au Musée d'Orsay, Paris, France</p>
+
+		<div class="cards">
+			<div class="card" id="la-montagne-sainte-victoire" onclick="laMontagneSainteVictoire()"> <!--1885-->
+				<p>La Montagne Sainte-Victoire vue de Bellevue</p>
+			</div>
+
+			<div class="card" id="le-garcon-au-gilet-rouge" onclick="leGarconAuGiletRouge()"> <!--1889-->
+				<p>Le Garçon au gilet rouge</p>
+			</div>
+
+			<div class="card" id="les-joueurs-de-cartes" onclick="lesJoueursDeCartes()"> <!--1895-->
+				<p>Les Joueurs de cartes</p>
+			</div>
+
+			<div class="card" id="la-corbeille-de-pommes" onclick="laCorbeilleDePommes()"> <!--1895-->
+				<p>Les Corbeille de pommes</p>
+			</div>
+
+			<div class="card" id="les-grandes-baigneuses" onclick="lesGrandesBaigneuses()"> <!--1906-->
+				<p>Les Grandes baigneuses</p>
+			</div>
+		
+
+			<div class="card" id="filler"></div>
+			<div class="card" id="filler"></div>
+			<div class="card" id="filler"></div>
+		</div>
+
+	</div>
+
+	<div id="footer-border"></div>
+	<div id="footer-spacer"></div>
+	<footer>
+		<div class="foot-notes"><p>Un site imaginé et réalisé par<br>Finn Morten Köhler</p></div>
+	</footer>
+
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+	<script type="text/javascript" src="javascript/card.js"></script>
+	<script type="text/javascript" src="javascript/nav-bar.js"></script>
+</body>
+</html>
+
+
+
+
+
+

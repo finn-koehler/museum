@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100&display=swap");
+
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/image.css");
+@import url("components/card.css");
+@import url("components/nav-bar.css");
+@import url("components/artistes.css");
+@import url("components/mouvements.css");
+
+
+body {
+	font-family: Avenir;
+	margin: 0px;
+	--footer-color:rgb(250,250,250);
+}
+
+a {
+	text-decoration: none;
+	color: rgb(150,150,150);
+}
+
+a:hover {
+	color: rgb(220,220,220);
+}
+
+p {
+	font-size: 16px;
+	color: rgb(200,200,200);
+	margin-bottom: 50px;
+}
+
+h1 {
+	margin-top: 100px;
+	text-align: center;
+	font-weight: 1;
+}
+
+.section-title {
+	text-align: left;
+	font-size: 30px;
+}
+
+.txt {
+	font-size: 17px;
+	color: rgb(80,80,80);
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+.txt span {
+	font-weight: lighter;
+}
+
+.txt a {
+	color: rgb(0,0,0);
+	font-weight: 450;
+}
+
+.txt a:hover {
+	color: rgb(150,150,150);
+}
+
+
+footer {
+	background-color: var(--footer-color);
+	
+	margin-top: 0px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	height: 100px;
+	width: 100% 
+}
+
+.foot-notes p {
+	font-size: 14px;
+	text-align: center;
+	font-weight: 1;
+	margin-bottom:0px;
+	margin-top: 0px;
+}
+
+#footer-border {
+	height: 5px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.9);
+	margin-bottom: 0px;
+}
+
+#footer-spacer {
+	height: 20px;
+	width: 100%;
+	background-color: var(--footer-color);
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+

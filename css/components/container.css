@@ -1,0 +1,40 @@
+@import url("../style.css");
+@import url("banner.css");
+@import url("image.css");
+@import url("card.css");
+@import url("nav-bar.css");
+
+body {
+	--container-width:700px;
+	--card-margin:25px;
+}
+
+.container {
+	width: var(--container-width);
+	margin: 0px auto;
+
+}
+@media (max-width: 900px) {
+	body {
+		--container-width: 648px;
+		--card-margin:12px;
+		--image-height:554px;
+	}
+}
+
+@media (max-width: 660px) {
+	body {
+		--container-width: 500px;
+		--card-margin:50px;
+		--image-height:427px;
+	}
+}
+
+@media (max-width: 540px) {
+	body {
+		--container-width: 450px;
+		--card-margin:25px;
+		--image-height:385px;
+	}
+}
+

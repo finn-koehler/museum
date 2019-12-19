@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>museum | Enjoy art at home</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="nav-main" id="nav-accueil">
+			<div id="logo"><a href="index.html"><b>museum</b></a></div>
+			<div id="nav-items"></div>
+			
+		</div>
+		<div id="nav-hidden">
+			<div class="nav-item-hidden">
+				<a href="galerie.html">Galerie</a>
+			</div>
+			<div class="nav-item-hidden">
+				<a href="mouvements.html">Mouvements</a>
+			</div>
+			<div class="nav-item-hidden">
+				<a href="artistes.html">Artistes</a>
+			</div>
+			<div class="nav-item-hidden">
+				<a href="#">Expositions</a> 
+			</div>
+			<div class="nav-item-hidden">
+				<a href="#">À propos</a>
+			</div>
+			<div id="nav-hidden-spacer"></div>
+		</div>
+	</header>
+	
+
+	<div class="container">
+		<h1>GALERIE</h1>
+		<img src="images/trait.jpg" id="trait">
+		<img src="images/la-joconde.jpg" id="image-displayed">
+		<p id="description">La Joconde (1503)<br><a href="vinci.html">Léonard de Vinci</a><br>Conservé au Louvre, Paris, France</p>
+
+		<div class="cards"> 
+			<div class="card" id="l-annonciation" onclick="lAnnonciation()"> <!--1472-->
+				<p>L'Annonciation</p>
+			</div>
+
+			<div class="card" id="le-printemps" onclick="lePrintemps()"> <!--1482-->
+				<p>Le Printemps</p>
+			</div>
+
+			<div class="card" id="les-epreuves-de-moise" onclick="lesEpreuvesDeMoise()"> <!--1482-->
+				<p>Les Épreuves de Moise</p>
+			</div>
+
+			<div class="card" id="la-tentation-du-christ" onclick="laTentationDuChrist()"> <!--1482-->
+				<p>La Tentation du Christ</p>
+			</div>
+
+			<div class="card" id="la-naissance-de-venus" onclick="laNaissanceDeVenus()"> <!--1486-->
+				<p>La Naissance de Vénus</p>
+			</div>
+
+			<div class="card" id="la-dame-a-l-hermine" onclick="laDameALHermine()"> <!--1490-->
+				<p>La Dame à l'hermine</p>
+			</div>
+
+			<div class="card" id="la-calomnie-d-apelle" onclick="leCalomnieDApelle()"> <!--1494-->
+				<p>La Calomnie d'Apelle</p>
+			</div>
+
+			<div class="card" id="la-belle-ferroniere" onclick="laBelleFerroniere()"> <!--1497-->
+				<p>La Belle Ferronière</p>
+			</div>
+
+			<div class="card" id="la-cene" onclick="laCene()"> <!--1498-->
+				<p>La Cène</p>
+			</div>
+
+			<div class="card" id="salvator-mundi" onclick="salvatorMundi()"> <!--1500-->
+				<p>Salvator Mundi</p>
+			</div>
+
+			<div class="card" id="la-nativite-mystique" onclick="laNativiteMystique()"> <!--1501-->
+				<p>La Nativité mystique</p>
+			</div>
+
+			<div class="card" id="la-joconde" onclick="laJoconde()"> <!--1503-->
+				<p>La Joconde</p>
+			</div>
+
+			<div class="card" id="l-ecole-d-athenes" onclick="lEcoleDAthenes()"> <!--1512-->
+				<p>L'École d'Athènes</p>
+			</div>
+
+			<div class="card" id="saint-jean-baptiste" onclick="saintJeanBaptiste()"> <!--1513-->
+				<p>Saint Jean-Baptiste</p>
+			</div>
+
+			<div class="card" id="la-transfiguration" onclick="laTransfiguration()"> <!--1520-->
+				<p>La Transfiguration</p>
+			</div>
+
+			<div class="card" id="la-laitiere" onclick="laLaitiere()"> <!--1658-->
+				<p>La Laitière</p>
+			</div>
+
+			<div class="card" id="la-ruelle" onclick="laRuelle()"> <!--1658-->
+				<p>La Ruelle</p>
+			</div>
+
+			<div class="card" id="vue-de-delft" onclick="vueDeDelft()"> <!--1660-->
+				<p>Vue de Delft</p>
+			</div>
+
+			<div class="card" id="la-femme-en-bleu-lisant-une-lettre" onclick="laFemmeEnBleuLisantUneLettre()"> <!--1665-->
+				<p>La Femme en bleu lisant une lettre</p>
+			</div>
+
+			<div class="card" id="la-jeune-fille-a-la-perle" onclick="laJeuneFilleALaPerle()"> <!--1656-->
+				<p>La Jeune Fille à la perle</p>
+			</div>
+
+			<div class="card" id="l-art-de-la-peinture" onclick="lArtDeLaPeinture()"> <!--1666-->
+				<p>L'Art de la peinture</p>
+			</div>
+
+			<div class="card" id="la-dentelliere" onclick="laDentelliere()"> <!--1671-->
+				<p>La Dentellière</p>
+			</div>
+
+			<div class="card" id="la-barque-de-dante" onclick="laBarqueDeDante()"> <!--1822-->
+				<p>La Barque de Dante</p>
+			</div>
+
+			<div class="card" id="scene-des-massacres-de-scio" onclick="sceneDesMassacresDeScio()"> <!--1824-->
+				<p>Scène des massacres de Scio</p>
+			</div>
+
+			<div class="card" id="la-mort-de-sardanapale" onclick="laMortDeSardanapale()"> <!--1827-->
+				<p>La mort de Sardanapale</p>
+			</div>
+
+			<div class="card" id="la-liberte-guidant-le-peuple" onclick="laLiberteGuidantLePeuple()"> <!--1830-->
+				<p>La Liberté guidant le peuple</p>
+			</div>
+
+			<div class="card" id="femmes-d-alger" onclick="femmesDAlger()"> <!--1834-->
+				<p>Femmes d'Alger</p>
+			</div>
+
+			<div class="card" id="le-desespere" onclick="leDesespere()"> <!--1845-->
+				<p>Le Désespéré</p>
+			</div>
+
+			<div class="card" id="l-apres-dinee-a-ornans" onclick="lApresDineeAOrnans()"> <!--1849-->
+				<p>L'Après-dînée à Ornans</p>
+			</div>
+
+			<div class="card" id="un-enterrement-a-ornans" onclick="unEnterrementAOrnans()"> <!--1850-->
+				<p>Un Enterrement à Ornans</p>
+			</div>
+
+			<div class="card" id="l-atelier-du-peintre" onclick="lAtelierDuPeintre()"> <!--1855-->
+				<p>L'Atelier du peintre</p>
+			</div>
+
+			<div class="card" id="chasse-aux-lions" onclick="chasseAuxLions()"> <!--1861-->
+				<p>Chasse aux lions</p>
+			</div>
+
+			<div class="card" id="filler"></div>
+			<div class="card" id="filler"></div>
+			<div class="card" id="filler"></div>
+		</div>
+
+	</div>
+
+	<div id="footer-border"></div>
+	<div id="footer-spacer"></div>
+	<footer>
+		<div class="foot-notes"><p>Un site imaginé et réalisé par<br>Finn Morten Köhler</p></div>
+	</footer>
+
+	<script type="text/javascript" src="jquery/jquery.js"></script>
+	<script type="text/javascript" src="javascript/card.js"></script>
+	<script type="text/javascript" src="javascript/nav-bar.js"></script>
+</body>
+</html>
+
+
+
+
+
+

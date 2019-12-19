@@ -1,0 +1,23 @@
+@import url("container.css");
+@import url("banner.css");
+@import url("image.css");
+@import url("card.css");
+@import url("nav-bar.css");
+@import url("../style.css");
+
+.letter {
+	text-align: center;
+
+}
+
+.painter-names {
+	width: 50%;
+	margin-left: 35%;
+}
+
+.painter-names a {
+	color: black;
+	margin: 10px;
+	font-size: 20px;
+
+}
